@@ -103,3 +103,22 @@ span {
 .light-grey {
   background-color: lightgray;
 }
+
+@media only screen and (min-width: 25em) {
+
+  .nav {
+    text-align: center;
+  }
+
+  .nav li {
+    display: inline-block;
+  }
+
+  .copyright {
+    text-align: center;
+  }
+
+  span {
+    display: inline;
+  }
+}
