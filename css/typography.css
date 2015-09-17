@@ -2,6 +2,27 @@ html {
   font: normal 100%/1.5 'Josefin Sans', sans-serif;
 }
 
+@media only screen and (min-width: 60em) {
+
+  html {
+    font-size: 110%;
+  }
+}
+
+@media only screen and (min-width: 90em) {
+
+  html {
+    font-size: 120%;
+  }
+}
+
+@media only screen and (min-width: 120em) {
+
+  html {
+    font-size: 130%;
+  }
+}
+
 h1, h2, h3, h4, h5, h6,
 p, ul, ol, dl, dd, figure,
 blockquote, details, hr,
@@ -76,8 +97,6 @@ sup {
 sub {
   bottom: -0.25em;
 }
-
-em {}
 
 .push {
   margin-bottom: 1.5rem;
