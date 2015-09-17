@@ -75,8 +75,8 @@ body {
 .nav a:hover,
 .nav a:focus,
 .nav a:active {
-  background-color: #9cc;
-
+  background-color: #6cc;
+  border-radius: 15px;
   color: #fff;
 }
 
@@ -89,7 +89,7 @@ body {
 }
 
 .section {
-  background-color: #efefef;
+  background-color: #9cc;
 }
 
 .intro {
@@ -102,6 +102,16 @@ span {
 
 .light-grey {
   background-color: lightgray;
+}
+
+.hr-style {
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(153, 204, 204, 0), rgba(153, 204, 204, 0.75), rgba(153, 204, 204, 0));
+}
+
+.profile {
+	border-radius: 50px;
 }
 
 @media only screen and (min-width: 25em) {
@@ -131,8 +141,8 @@ span {
     text-align: center;
   }
 
-  .img-flex {
-  	float: left;
+  h1 {
+  	size: exa;
   }
 }
 
