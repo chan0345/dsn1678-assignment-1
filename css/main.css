@@ -68,7 +68,7 @@ body {
 .nav a:visited {
 	display: block;
 
-	color: #099;
+	color: #3cc;
 	text-decoration: none;
 }
 
@@ -112,6 +112,10 @@ span {
 
 .profile {
 	border-radius: 50px;
+}
+
+::selection {
+	background: #9cc;
 }
 
 @media only screen and (min-width: 25em) {
