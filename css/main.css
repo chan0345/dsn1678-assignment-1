@@ -122,3 +122,36 @@ span {
     display: inline;
   }
 }
+
+@media only screen and (min-width: 38em) {
+
+  .copyright {
+    text-align: right;
+  }
+
+  .nav {
+  	display: inline-block;
+    text-align: right;
+  }
+}
+
+@media only screen and (min-width: 60em) {
+
+  dl {
+    overflow: hidden;
+  }
+
+  dt {
+    float: left;
+    width: 50%;
+  }
+
+  dd {
+    float: left;
+    width: 50%;
+  }
+
+  .img-flex {
+    padding-right: 7.5%;
+  }
+}
