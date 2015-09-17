@@ -126,10 +126,6 @@ span {
 
 @media only screen and (min-width: 38em) {
 
-  .copyright {
-    text-align: right;
-  }
-
   .nav {
   	display: inline-block;
     text-align: center;
