@@ -46,3 +46,60 @@ body {
   display: block;
   width: 100%;
 }
+
+.masthead {
+	overflow: hidden;
+}
+
+.title {
+	text-align: center;
+}
+
+.nav {
+	padding: 0;
+}
+
+.nav li {
+	display: block;
+}
+
+.nav a,
+.nav a:link,
+.nav a:visited {
+	display: block;
+
+	color: #099;
+	text-decoration: none;
+}
+
+.nav a:hover,
+.nav a:focus,
+.nav a:active {
+  background-color: #9cc;
+
+  color: #fff;
+}
+
+.section-dark {
+  background-color: #ccc;
+}
+
+.section-mid {
+  background-color: #e2e2e2;
+}
+
+.section {
+  background-color: #efefef;
+}
+
+.intro {
+  text-align: center;
+}
+
+span {
+  display: none;
+}
+
+.light-grey {
+  background-color: lightgray;
+}
