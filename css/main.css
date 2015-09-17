@@ -116,6 +116,7 @@ span {
 
   .copyright {
     text-align: center;
+    color: #9cc;
   }
 
   span {
@@ -131,25 +132,15 @@ span {
 
   .nav {
   	display: inline-block;
-    text-align: right;
+    text-align: center;
+  }
+
+  .img-flex {
+  	float: left;
   }
 }
 
 @media only screen and (min-width: 60em) {
-
-  dl {
-    overflow: hidden;
-  }
-
-  dt {
-    float: left;
-    width: 50%;
-  }
-
-  dd {
-    float: left;
-    width: 50%;
-  }
 
   .img-flex {
     padding-right: 7.5%;
