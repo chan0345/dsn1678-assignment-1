@@ -81,6 +81,10 @@ body {
   color: #fff;
 }
 
+a:focus {
+	outline: 3px solid #095C7C;
+}
+
 .section-dark {
   background-color: #ccc;
 }
